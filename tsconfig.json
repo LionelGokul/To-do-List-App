@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "strict": true
+  },
+  "include": [
+    "app.ts",
+    "controllers/**/*.ts",
+    "middlewares/**/*.ts",
+    "prisma/**/*.ts",
+    "types/**/*.ts",
+    "modules/**/*.ts",
+    "utils/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
