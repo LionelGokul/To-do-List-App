@@ -42,7 +42,6 @@ out/
 prisma/migrations/
 prisma/dev.db
 prisma/dev.db-journal
-prisma/schema.prisma
 
 # Editor specific
 .idea/
